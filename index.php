@@ -39,6 +39,9 @@ function toConsole(data)
 function bondJSON(data){
 //JSON processing data goes here
 	console.log(data)
+
+	$("#output").text(JSON.stringify(data));
+
 }
 
 </script>
