@@ -38,14 +38,16 @@ function toConsole(data)
 
 function bondJSON(data){
 //JSON processing data goes here
+
+	//using this I can see the object in the console
 	console.log(data)
-
+	
+	//in this way we can see all of the data on the page
 	let myData = JSON.stringify(data,null,4);
+	myData = '<pre>' + myData + '</pre>';
+	$("#output").html(myData); 
 
-	myData = '<pre>' + myData = '</pre>';
-
-	$("#output").html(myData);
-
+	//this works, but the test is all bunched up
 	//$("#output").text(JSON.stringify(data));
 
 }
