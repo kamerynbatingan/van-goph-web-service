@@ -16,7 +16,6 @@ $(document).ready(function() {
 	});
 });	
 
-
 function loadAJAX(cat)
 {
 	//AJAX connection will go here
