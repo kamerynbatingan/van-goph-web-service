@@ -24,7 +24,7 @@ function loadAJAX(cat)
 	$.ajax({
 		type:"GET",
 		dataType: "json"
-		url: "api.php?cat=" + cat;
+		url: "api.php?cat=" + cat,
 		success:bondJSON
 	});
 
