@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>Bond Web Service Demo</title>
+<title>Van Goph Web Service Demo</title>
 <style>
 	body {font-family:georgia;}
 
@@ -99,7 +99,7 @@ function bondTemplate(film){
 </script>
 </head>
 	<body>
-	<h1>Bond Web Service</h1>
+	<h1>Van Goph Web Service</h1>
 		<a href="year" class="category">Bond Films By Year</a><br />
 		<a href="box" class="category">Bond Films By International Box Office Totals</a>
 		<h3 id="filmtitle">Title Will Go Here</h3>
