@@ -89,7 +89,7 @@ function bondTemplate(painting){
 			<b>Material:</b> ${painting.Material}<br />
 			<b>Size:</b> ${painting.Size}<br />
 			<b>Credits:</b> ${painting.Credit}<br />				
-			<div class="pic"><img src="images/${painting.Image} style="width:150px"></div>
+			<div class="pic"><img src="thumbnails/${painting.Image} style="width:150px"></div>
 		</div>
 	`;
 }

@@ -9,7 +9,7 @@
       "Material": "Oil on Canvas",
       "Size": "46.4 cm x 38.1 cm",
       "Credit": "Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation)",
-      "Image":"skyfall.jpg"
+      "Image":"torso-of-venus.jpg"
     },
     {
       "Year": 1887,
