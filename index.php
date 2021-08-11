@@ -13,9 +13,12 @@
 	}
 	.pic{
 		position:absolute;
+		object-position: 10px 10%;
+		object-fit: scale-down;
 		right:10px;
 		top:10px;
 		width: 200px;
+		height:300px;
 	}
 
 </style>
