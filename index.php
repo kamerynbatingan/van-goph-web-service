@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>Van Goph Web Service Demo</title>
+<title>Van Gogh Web Service Demo</title>
 <style>
 	body {font-family:georgia;}
 
@@ -32,18 +32,19 @@ $(document).ready(function() {
 
 function loadAJAX(cat)
 {
-	//AJAX connection will go here
-    //alert('cat is: ' + cat);
-
-	$.ajax({
-		type:"GET",
-		dataType: "json",
-		url: "api.php?cat=" + cat,
-		success:bondJSON
-	});
-
-
+   $.ajax({
+       type: "GET",
+       dataType: "json",
+       url: "api.php?cat=" + cat,
+       success: bondJSON,
+       error: function(xhr, status, error){
+        let errorMessage = xhr.status + ': ' + xhr.statusText
+        alert('Error - ' + errorMessage);
+    }
+ 
+   });
 }
+
     
 function toConsole(data)
 {//return data to console for JSON examination
@@ -69,11 +70,11 @@ function bondJSON(data){
 	});
 
 	//in this way we can see all of the data on the page
-	/*
+	
 	let myData = JSON.stringify(data,null,4);
 	myData = '<pre>' + myData + '</pre>';
 	$("#output").html(myData); 
-	*/	
+		
 	//this works, but the test is all bunched up
 	//$("#output").text(JSON.stringify(data));
 }
@@ -99,9 +100,9 @@ function bondTemplate(film){
 </script>
 </head>
 	<body>
-	<h1>Van Goph Web Service</h1>
-		<a href="year" class="category">Bond Films By Year</a><br />
-		<a href="box" class="category">Bond Films By International Box Office Totals</a>
+	<h1>Van Gogh Web Service</h1>
+		<a href="year" class="category">Van Gogh Paintings By Year</a><br />
+		<a href="title" class="category">Van Gogh Paintings By Title</a>
 		<h3 id="filmtitle">Title Will Go Here</h3>
 		<div id="films">
 			<!--
