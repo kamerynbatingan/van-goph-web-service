@@ -62,20 +62,20 @@ function bondJSON(data){
 	
 	$('#films').html('');
 
-	/*
-	$.each(data.painting,function(i,item){
+	
+	$.each(data.paintings,function(i,item){
 		let str = bondTemplate(item);
 
 		$('<div></div>').html(str).appendTo('#films');
 
 	});
-	*/
-	//in this way we can see all of the data on the page
 	
+	//in this way we can see all of the data on the page
+	/*
 	let myData = JSON.stringify(data,null,4);
 	myData = '<pre>' + myData + '</pre>';
 	$("#output").html(myData); 
-	
+	*/
 	//this works, but the test is all bunched up
 	//$("#output").text(JSON.stringify(data));
 }
@@ -83,13 +83,13 @@ function bondJSON(data){
 function bondTemplate(painting){
 	return `
 		<div class="film"> 
-			<b>Title:</b> ${painting.title} <br />
-			<b>Date:</b> ${painting.year} ${painting.month} <br />
-			<b>Location:</b> ${painting.location}<br />
-			<b>Material:</b> ${painting.material}<br />
-			<b>Size:</b> ${painting.size}<br />
-			<b>Credits:</b> ${painting.credits}<br />				
-			<div class="pic"><img src="thumbnails/${painting.image}"></div>
+			<b>Title:</b> ${painting.Title} <br />
+			<b>Date:</b> ${painting.Year} " " ${painting.Month} <br />
+			<b>Location:</b> ${painting.Location}<br />
+			<b>Material:</b> ${painting.Material}<br />
+			<b>Size:</b> ${painting.Size}<br />
+			<b>Credits:</b> ${painting.Credits}<br />				
+			<div class="pic"><img src="thumbnails/${painting.Image}"></div>
 		</div>
 	`;
 }
