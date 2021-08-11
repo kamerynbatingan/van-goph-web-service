@@ -9,7 +9,7 @@
       "Material": "Oil on Canvas",
       "Size": "73.3 cm x 92.4 cm",
       "Credit": "Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation)",
-      "Image": "casino-royale.jpg"
+      "Image":"skyfall.jpg"
     },
     {
       "Title": "Carafe and Dish with Citrus Fruit",
