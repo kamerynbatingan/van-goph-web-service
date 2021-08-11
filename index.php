@@ -62,37 +62,34 @@ function bondJSON(data){
 	
 	$('#films').html('');
 
+	
 	$.each(data.films,function(i,item){
 		let str = bondTemplate(item);
 
 		$('<div></div>').html(str).appendTo('#films');
 
 	});
-
-	//in this way we can see all of the data on the page
 	
+	//in this way we can see all of the data on the page
+	/*
 	let myData = JSON.stringify(data,null,4);
 	myData = '<pre>' + myData + '</pre>';
 	$("#output").html(myData); 
-		
+	*/
 	//this works, but the test is all bunched up
 	//$("#output").text(JSON.stringify(data));
 }
 
-function bondTemplate(film){
+function bondTemplate(painting){
 	return `
 		<div class="film"> 
-			<b>Film:</b> ${film.Film} <br />
-			<b>Title:</b> ${film.Title}<br />
-			<b>Year:</b> ${film.Year}<br />
-			<b>Director:</b> ${film.Director}<br />
-			<b>Producers:</b> ${film.Producers}<br />
-			<b>Writers:</b> ${film.Writers}<br />				
-			<b>Composer:</b> ${film.Composer}<br />
-			<b>Bond:</b> ${film.Bond}<br />
-			<b>Budget:</b> ${film.Budget}<br />
-			<b>Box Office:</b> ${film.Boxoffice}<br />
-			<div class="pic"><img src="thumbnails/${film.Image}"></div>
+			<b>Title:</b> ${painting.title} <br />
+			<b>Date:</b> ${painting.year} ${painting.month} <br />
+			<b>Location:</b> ${painting.location}<br />
+			<b>Material:</b> ${painting.material}<br />
+			<b>Size:</b> ${painting.size}<br />
+			<b>Credits:</b> ${painting.credits}<br />				
+			<div class="pic"><img src="thumbnails/${painting.Image}"></div>
 		</div>
 	`;
 }

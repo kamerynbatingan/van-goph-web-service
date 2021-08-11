@@ -1,5 +1,5 @@
 {
-	"title": "Van Goph painting by Title",
+	"title": "Van Goph Painting by Title",
 	"paintings":[
     {
       "Title": "Almond Blossom",
