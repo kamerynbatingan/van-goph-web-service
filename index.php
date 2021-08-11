@@ -13,12 +13,8 @@
 	}
 	.pic{
 		position:absolute;
-		object-position: 10px 10%;
-		object-fit: scale-down;
 		right:10px;
 		top:10px;
-		width: 200px;
-		height:300px;
 	}
 
 </style>
@@ -93,7 +89,7 @@ function bondTemplate(painting){
 			<b>Material:</b> ${painting.Material}<br />
 			<b>Size:</b> ${painting.Size}<br />
 			<b>Credits:</b> ${painting.Credit}<br />				
-			<div class="pic"><img src="thumbnails/${painting.Image}"></div>
+			<div class="pic"><img src="thumbnails/${painting.Image} width="200px"></div>
 		</div>
 	`;
 }
