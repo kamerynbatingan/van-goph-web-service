@@ -8,7 +8,7 @@
       "Location": "Saint-Remy-de-Provence",
       "Material": "Oil on Canvas",
       "Size": "73.3 cm x 92.4 cm",
-      "Credit": "Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation)"
+      "Credit": "Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation)",
       "Image": "almond-blossom.jpg"
     },
     {
@@ -18,8 +18,8 @@
       "Location": "Paris",
       "Material": "Oil on Canvas",
       "Size": "46.3 cm x 38.4 cm",
-      "Credit": "Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation)"
-      "Image": "carafe-and-dish-with-citrus-fruit.jpg"
+      "Credit": "Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation)",
+      "Image":"carafe-and-dish-with-citrus-fruit.jpg"
     },
     {
       "Title": "Farmhouse in a Wheatfield",
@@ -28,7 +28,7 @@
       "Location": "Arles",
       "Material": "Oil on Canvas",
       "Size": "45.3 cm x 50.9 cm",
-      "Credit": "Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation)"
+      "Credit": "Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation)",
       "Image": "farmhouse-in-a-wheatfield.jpg"
     },
     {
@@ -38,7 +38,7 @@
       "Location": "Paris",
       "Material": "Oil on Canvas",
       "Size": "75.0 cm x 113.0 cm",
-      "Credit": "Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation)"
+      "Credit": "Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation)",
       "Image": "garden-with-courting-couples.jpg"
     },
     {
@@ -48,7 +48,7 @@
       "Location": "Saint-Remy-de-Provence",
       "Material": "Oil on Canvas",
       "Size": "92.7 cm x 73.9 cm",
-      "Credit": "Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation)"
+      "Credit": "Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation)",
       "Image": "irises.jpg"
     },
     {
@@ -58,7 +58,7 @@
       "Location": "Paris",
       "Material": "Oil on Canvas",
       "Size": "65.1 cm x 50 cm",
-      "Credit": "Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation)"
+      "Credit": "Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation)",
       "Image": "self-portrait-as-a-painter.jpg"
     },
     {
@@ -68,7 +68,7 @@
       "Location": "Paris",
       "Material": "Oil on Cotton",
       "Size": "44.5 cm x 37.2 cm",
-      "Credit": "Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation)"
+      "Credit": "Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation)",
       "Image": "self-portrait-with-grey-felt-hat.jpg"
     },
     {
@@ -78,7 +78,7 @@
       "Location": "Arles",
       "Material": "Oil on Canvas",
       "Size": "95 cm x 73 cm",
-      "Credit": "Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation)"
+      "Credit": "Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation)",
       "Image": "sunflowers.jpg"
     },
     {
@@ -88,7 +88,7 @@
       "Location": "Arles",
       "Material": "Oil on Canvas",
       "Size": "72.4 cm x 91.3 cm",
-      "Credit": "Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation)"
+      "Credit": "Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation)",
       "Image": "the-bedroom.jpg"
     },
     {
@@ -98,7 +98,7 @@
       "Location": "Paris",
       "Material": "Oil on Canvas",
       "Size": "32.1 cm x 40.5 cm",
-      "Credit": "Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation)"
+      "Credit": "Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation)",
       "Image": "the-bridge-at-courbevoie.jpg"
     },
     {
@@ -108,7 +108,7 @@
       "Location": "Arles",
       "Material": "Oil on Canvas",
       "Size": "59.6 cm x 73.6 cm",
-      "Credit": "Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation)"
+      "Credit": "Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation)",
       "Image": "the-langlois-bridge.jpg"
     },
     {
@@ -118,7 +118,7 @@
       "Location": "Arles",
       "Material": "Oil on Canvas",
       "Size": "80.9 cm x 60.2 cm",
-      "Credit": "Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation)"
+      "Credit": "Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation)",
       "Image": "the-pink-peach-tree.jpg"
     },
     {
@@ -128,7 +128,7 @@
       "Location": "Arles",
       "Material": "Oil on Canvas",
       "Size": "72 cm x 91.5 cm",
-      "Credit": "Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation)"
+      "Credit": "Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation)",
       "Image": "the-yellow-house.jpg"
     },
     {
@@ -138,7 +138,7 @@
       "Location": "Paris",
       "Material": "Oil on Canvas",
       "Size": "46.4 cm x 38.1 cm",
-      "Credit": "Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation)"
+      "Credit": "Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation)",
       "Image": "torso-of-venus.jpg"
     },
     {
@@ -148,7 +148,7 @@
       "Location": "Auvers-ser-Oise",
       "Material": "Oil on Canvas",
       "Size": "50.3 cm x 100.1 cm",
-      "Credit": "Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation)"
+      "Credit": "Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation)",
       "Image": "tree-roots.jpg"
     },
     {
@@ -158,7 +158,7 @@
       "Location": "Saint-Remy-de-Provence",
       "Material": "Oil on Canvas",
       "Size": "73.0 cm x 92.3 cm",
-      "Credit": "Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation)"
+      "Credit": "Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation)",
       "Image": "undergrowth.jpg"
     },
     {
@@ -168,7 +168,7 @@
       "Location": "Saint-Remy-de-Provence",
       "Material": "Oil on Canvas",
       "Size": "73.2 cm x 92.7 cm",
-      "Credit": "Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation)"
+      "Credit": "Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation)",
       "Image": "wheatfield-with-a-reaper.jpg"
     }
  ]
