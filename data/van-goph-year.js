@@ -170,6 +170,6 @@
       "Size": "50.3 cm x 100.1 cm",
       "Credit": "Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation)",
       "Image": "tree-roots.jpg"
-    },
+    }
   ]
 }

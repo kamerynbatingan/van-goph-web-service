@@ -84,11 +84,11 @@ function bondTemplate(painting){
 	return `
 		<div class="film"> 
 			<b>Title:</b> ${painting.Title} <br />
-			<b>Date:</b> ${painting.Year} " " ${painting.Month} <br />
+			<b>Date:</b> ${painting.Month} ${painting.Year} <br />
 			<b>Location:</b> ${painting.Location}<br />
 			<b>Material:</b> ${painting.Material}<br />
 			<b>Size:</b> ${painting.Size}<br />
-			<b>Credits:</b> ${painting.Credits}<br />				
+			<b>Credits:</b> ${painting.Credit}<br />				
 			<div class="pic"><img src="thumbnails/${painting.Image}"></div>
 		</div>
 	`;
